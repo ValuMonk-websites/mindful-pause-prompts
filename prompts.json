@@ -1,0 +1,1379 @@
+{
+ "schemaVersion": 1,
+ "bankVersion": 2026102802,
+ "minAppVersion": 105,
+ "backup": {
+  "en": "Need, or habit?",
+  "hi": "Kaam hai, ya timepass?"
+ },
+ "prompts": [
+  {
+   "id": "GEN-D01",
+   "moment": "general",
+   "tone": "direct",
+   "en": "Need, or habit?",
+   "hi": "Kaam hai, ya timepass?",
+   "shareable": true
+  },
+  {
+   "id": "GEN-D02",
+   "moment": "general",
+   "tone": "direct",
+   "en": "{app}: something specific?",
+   "hi": "{app}: kuch specific dekhna hai?",
+   "shareable": true
+  },
+  {
+   "id": "GEN-D03",
+   "moment": "general",
+   "tone": "direct",
+   "en": "{time_today} on {app} today. Open it?",
+   "hi": "Aaj {app} pe {time_today}. Kholna hai?",
+   "shareable": false
+  },
+  {
+   "id": "GEN-D04",
+   "moment": "general",
+   "tone": "direct",
+   "en": "What's this open for?",
+   "hi": "Yeh open kis liye?",
+   "shareable": true
+  },
+  {
+   "id": "GEN-D05",
+   "moment": "general",
+   "tone": "direct",
+   "en": "Quick check, or a long session?",
+   "hi": "Quick check, ya lamba session?",
+   "shareable": true
+  },
+  {
+   "id": "GEN-D06",
+   "moment": "general",
+   "tone": "direct",
+   "en": "Did you mean to open {app}?",
+   "hi": "{app} kholna tha?",
+   "shareable": true
+  },
+  {
+   "id": "GEN-D07",
+   "moment": "general",
+   "tone": "direct",
+   "en": "How long do you want here?",
+   "hi": "Yahan kitna time chahiye?",
+   "shareable": true
+  },
+  {
+   "id": "GEN-D08",
+   "moment": "general",
+   "tone": "direct",
+   "en": "{app} now, or later?",
+   "hi": "{app} abhi, ya baad mein?",
+   "shareable": true
+  },
+  {
+   "id": "GEN-D09",
+   "moment": "general",
+   "tone": "direct",
+   "en": "One task first, then {app}?",
+   "hi": "Pehle ek task, phir {app}?",
+   "shareable": true
+  },
+  {
+   "id": "GEN-D10",
+   "moment": "general",
+   "tone": "direct",
+   "en": "Is anything in there urgent?",
+   "hi": "Wahan kuch urgent hai?",
+   "shareable": true
+  },
+  {
+   "id": "GEN-D11",
+   "moment": "general",
+   "tone": "direct",
+   "en": "Back to what you were doing, or {app}?",
+   "hi": "Jo chal raha tha uspe wapas, ya {app}?",
+   "shareable": true
+  },
+  {
+   "id": "GEN-D12",
+   "moment": "general",
+   "tone": "direct",
+   "en": "Set a time for this visit?",
+   "hi": "Is visit ke liye time fix karein?",
+   "shareable": true
+  },
+  {
+   "id": "GEN-D13",
+   "moment": "general",
+   "tone": "direct",
+   "en": "Is now a good time for {app}?",
+   "hi": "{app} ke liye abhi sahi time hai?",
+   "shareable": true
+  },
+  {
+   "id": "GEN-D14",
+   "moment": "general",
+   "tone": "direct",
+   "en": "Here for a person, a post, or nothing specific?",
+   "hi": "Kisi person ke liye, post ke liye, ya bas aise hi?",
+   "shareable": true
+  },
+  {
+   "id": "GEN-D15",
+   "moment": "general",
+   "tone": "direct",
+   "en": "Continue to {app}?",
+   "hi": "{app} pe continue?",
+   "shareable": true
+  },
+  {
+   "id": "GEN-D16",
+   "moment": "general",
+   "tone": "direct",
+   "en": "What do you want from this?",
+   "hi": "Isse kya chahiye?",
+   "shareable": true
+  },
+  {
+   "id": "GEN-D17",
+   "moment": "general",
+   "tone": "direct",
+   "en": "Text someone, or open {app}?",
+   "hi": "Kisi ko text, ya {app}?",
+   "shareable": true
+  },
+  {
+   "id": "GEN-D18",
+   "moment": "general",
+   "tone": "direct",
+   "en": "Ten minutes on {app}, then close?",
+   "hi": "{app} pe 10 minute, phir close?",
+   "shareable": true
+  },
+  {
+   "id": "GEN-D19",
+   "moment": "general",
+   "tone": "direct",
+   "en": "Is this a break you planned?",
+   "hi": "Yeh break planned tha?",
+   "shareable": true
+  },
+  {
+   "id": "GEN-D20",
+   "moment": "general",
+   "tone": "direct",
+   "en": "{app}, or something offline?",
+   "hi": "{app}, ya kuch offline?",
+   "shareable": true
+  },
+  {
+   "id": "GEN-D21",
+   "moment": "general",
+   "tone": "direct",
+   "en": "Pause here, or go in?",
+   "hi": "Yahin ruk jaayein, ya andar chalein?",
+   "shareable": true
+  },
+  {
+   "id": "GEN-D22",
+   "moment": "general",
+   "tone": "direct",
+   "en": "How are you feeling right now?",
+   "hi": "Abhi kaisa feel ho raha hai?",
+   "shareable": true
+  },
+  {
+   "id": "GEN-D23",
+   "moment": "general",
+   "tone": "direct",
+   "en": "Come back to this later?",
+   "hi": "Isse baad mein dekhein?",
+   "shareable": true
+  },
+  {
+   "id": "GEN-D24",
+   "moment": "general",
+   "tone": "direct",
+   "en": "Your call. Open {app}?",
+   "hi": "Tumhara call. {app} kholna hai?",
+   "shareable": true
+  },
+  {
+   "id": "GEN-C01",
+   "moment": "general",
+   "tone": "calm",
+   "en": "What were you hoping to find in here?",
+   "hi": "Yahan kya expect kiya tha?",
+   "shareable": true
+  },
+  {
+   "id": "GEN-C02",
+   "moment": "general",
+   "tone": "calm",
+   "en": "Is this a choice, or a reflex?",
+   "hi": "Yeh choice hai, ya bas reflex?",
+   "shareable": true
+  },
+  {
+   "id": "GEN-C03",
+   "moment": "general",
+   "tone": "calm",
+   "en": "What's the one thing you actually came here for?",
+   "hi": "Woh ek cheez kya hai jiske liye khola?",
+   "shareable": true
+  },
+  {
+   "id": "GEN-C04",
+   "moment": "general",
+   "tone": "calm",
+   "en": "Will this make the next hour better?",
+   "hi": "Isse agla ghanta better hoga?",
+   "shareable": true
+  },
+  {
+   "id": "GEN-C05",
+   "moment": "general",
+   "tone": "calm",
+   "en": "Bored, tired, or avoiding something?",
+   "hi": "Bored, tired, ya kuch avoid karna hai?",
+   "shareable": true
+  },
+  {
+   "id": "GEN-C06",
+   "moment": "general",
+   "tone": "calm",
+   "en": "Ten minutes from now, will you be glad you opened this?",
+   "hi": "10 minute baad, yeh kholna achha lagega?",
+   "shareable": true
+  },
+  {
+   "id": "GEN-C07",
+   "moment": "general",
+   "tone": "calm",
+   "en": "What would you like the next ten minutes to be?",
+   "hi": "Agle 10 minute kaise jaayein?",
+   "shareable": true
+  },
+  {
+   "id": "GEN-C08",
+   "moment": "general",
+   "tone": "calm",
+   "en": "Can this wait until you've done one thing offline?",
+   "hi": "Pehle ek offline kaam, phir yeh?",
+   "shareable": true
+  },
+  {
+   "id": "GEN-C09",
+   "moment": "general",
+   "tone": "calm",
+   "en": "How do you want to feel when you put the phone down?",
+   "hi": "Phone rakhne ke baad kaisa feel karna hai?",
+   "shareable": true
+  },
+  {
+   "id": "GEN-C10",
+   "moment": "general",
+   "tone": "calm",
+   "en": "What were you doing just before you picked up the phone?",
+   "hi": "Phone uthane se just pehle kya chal raha tha?",
+   "shareable": true
+  },
+  {
+   "id": "GEN-C11",
+   "moment": "general",
+   "tone": "calm",
+   "en": "Is there something you'd rather be doing with this time?",
+   "hi": "Is time mein kuch aur karne ka mann hai?",
+   "shareable": true
+  },
+  {
+   "id": "GEN-C12",
+   "moment": "general",
+   "tone": "calm",
+   "en": "What's pulling you here right now?",
+   "hi": "Abhi kya cheez yahan pull kar rahi hai?",
+   "shareable": true
+  },
+  {
+   "id": "GEN-C13",
+   "moment": "general",
+   "tone": "calm",
+   "en": "If this app didn't exist, what would you do next?",
+   "hi": "Yeh app na hota, toh next kya hota?",
+   "shareable": true
+  },
+  {
+   "id": "GEN-C14",
+   "moment": "general",
+   "tone": "calm",
+   "en": "Are you looking for something, or looking for a feeling?",
+   "hi": "Kuch specific chahiye, ya bas ek feeling?",
+   "shareable": true
+  },
+  {
+   "id": "GEN-C15",
+   "moment": "general",
+   "tone": "calm",
+   "en": "How has the last scroll felt, honestly?",
+   "hi": "Honestly, last scroll kaisa laga?",
+   "shareable": true
+  },
+  {
+   "id": "GEN-C16",
+   "moment": "general",
+   "tone": "calm",
+   "en": "What could you notice around you right now?",
+   "hi": "Abhi around you kya notice ho raha hai?",
+   "shareable": true
+  },
+  {
+   "id": "GEN-C17",
+   "moment": "general",
+   "tone": "calm",
+   "en": "Is there a person you've been meaning to call?",
+   "hi": "Koi hai jise call karna tha?",
+   "shareable": true
+  },
+  {
+   "id": "GEN-C18",
+   "moment": "general",
+   "tone": "calm",
+   "en": "Three slow breaths, then decide?",
+   "hi": "Teen slow breaths, phir decide?",
+   "shareable": true
+  },
+  {
+   "id": "GEN-C19",
+   "moment": "general",
+   "tone": "calm",
+   "en": "What did you want to do today that hasn't happened yet?",
+   "hi": "Aaj kya karna tha jo abhi tak hua nahi?",
+   "shareable": true
+  },
+  {
+   "id": "GEN-C20",
+   "moment": "general",
+   "tone": "calm",
+   "en": "Is this rest, or distraction?",
+   "hi": "Yeh rest hai, ya distraction?",
+   "shareable": true
+  },
+  {
+   "id": "GEN-C21",
+   "moment": "general",
+   "tone": "calm",
+   "en": "What would happen if you waited five minutes?",
+   "hi": "5 minute ruk jaayein toh kya hoga?",
+   "shareable": true
+  },
+  {
+   "id": "GEN-C22",
+   "moment": "general",
+   "tone": "calm",
+   "en": "What do you want the rest of today to look like?",
+   "hi": "Baaki din kaisa chahiye?",
+   "shareable": true
+  },
+  {
+   "id": "GEN-C23",
+   "moment": "general",
+   "tone": "calm",
+   "en": "What's on your mind right now?",
+   "hi": "Abhi mind mein kya chal raha hai?",
+   "shareable": true
+  },
+  {
+   "id": "GEN-C24",
+   "moment": "general",
+   "tone": "calm",
+   "en": "What kind of day is it turning out to be?",
+   "hi": "Aaj ka din kaisa ja raha hai?",
+   "shareable": true
+  },
+  {
+   "id": "BACK-D01",
+   "moment": "back_again",
+   "tone": "direct",
+   "en": "You closed {app} {min_since} min ago.",
+   "hi": "{app} {min_since} min pehle band kiya tha.",
+   "shareable": false
+  },
+  {
+   "id": "BACK-D02",
+   "moment": "back_again",
+   "tone": "direct",
+   "en": "Back to {app} after {min_since} min. Open it?",
+   "hi": "{min_since} min baad wapas {app}. Kholna hai?",
+   "shareable": false
+  },
+  {
+   "id": "BACK-D03",
+   "moment": "back_again",
+   "tone": "direct",
+   "en": "You left {app} a moment ago. Something specific?",
+   "hi": "Abhi abhi {app} band kiya tha. Kuch specific?",
+   "shareable": true
+  },
+  {
+   "id": "BACK-D04",
+   "moment": "back_again",
+   "tone": "direct",
+   "en": "Same reason as last time?",
+   "hi": "Last time wala hi reason?",
+   "shareable": true
+  },
+  {
+   "id": "BACK-D05",
+   "moment": "back_again",
+   "tone": "direct",
+   "en": "Back within a few minutes. Continue?",
+   "hi": "Kuch hi minute mein wapas. Continue?",
+   "shareable": true
+  },
+  {
+   "id": "BACK-D06",
+   "moment": "back_again",
+   "tone": "direct",
+   "en": "Waiting on a reply or a post?",
+   "hi": "Kisi reply ya post ka wait hai?",
+   "shareable": true
+  },
+  {
+   "id": "BACK-D07",
+   "moment": "back_again",
+   "tone": "direct",
+   "en": "{app} again. Is now a good time?",
+   "hi": "{app} phir se. Abhi sahi time hai?",
+   "shareable": true
+  },
+  {
+   "id": "BACK-D08",
+   "moment": "back_again",
+   "tone": "direct",
+   "en": "Check one thing and close?",
+   "hi": "Ek cheez check karke close?",
+   "shareable": true
+  },
+  {
+   "id": "BACK-D09",
+   "moment": "back_again",
+   "tone": "direct",
+   "en": "Set this aside till later?",
+   "hi": "Isse baad ke liye rakh dein?",
+   "shareable": true
+  },
+  {
+   "id": "BACK-D10",
+   "moment": "back_again",
+   "tone": "direct",
+   "en": "You left for a reason. Still true?",
+   "hi": "Kisi reason se band kiya tha. Ab bhi wahi?",
+   "shareable": true
+  },
+  {
+   "id": "BACK-C01",
+   "moment": "back_again",
+   "tone": "calm",
+   "en": "You just left. What brought you back?",
+   "hi": "Abhi band kiya tha. Wapas kya laaya?",
+   "shareable": true
+  },
+  {
+   "id": "BACK-C02",
+   "moment": "back_again",
+   "tone": "calm",
+   "en": "What did you find last time you opened it?",
+   "hi": "Pichli baar kholne pe kya mila tha?",
+   "shareable": true
+  },
+  {
+   "id": "BACK-C03",
+   "moment": "back_again",
+   "tone": "calm",
+   "en": "Is the feed different, or is the feeling the same?",
+   "hi": "Feed alag hai, ya feeling wahi hai?",
+   "shareable": true
+  },
+  {
+   "id": "BACK-C04",
+   "moment": "back_again",
+   "tone": "calm",
+   "en": "What are you hoping is different this time?",
+   "hi": "Is baar kya different hoga, kya lagta hai?",
+   "shareable": true
+  },
+  {
+   "id": "BACK-C05",
+   "moment": "back_again",
+   "tone": "calm",
+   "en": "You were here a moment ago. What's still unfinished?",
+   "hi": "Ek moment pehle bhi yahin. Kya pending hai?",
+   "shareable": true
+  },
+  {
+   "id": "BACK-C06",
+   "moment": "back_again",
+   "tone": "calm",
+   "en": "Is this a quick check, or the start of a long scroll?",
+   "hi": "Yeh quick check hai, ya lambe scroll ki shuruaat?",
+   "shareable": true
+  },
+  {
+   "id": "BACK-C07",
+   "moment": "back_again",
+   "tone": "calm",
+   "en": "What would it take to let this one go for now?",
+   "hi": "Isko abhi ke liye jaane dene mein kya lagega?",
+   "shareable": true
+  },
+  {
+   "id": "BACK-C08",
+   "moment": "back_again",
+   "tone": "calm",
+   "en": "Has anything changed since you last looked?",
+   "hi": "Last time ke baad kuch badla hai?",
+   "shareable": true
+  },
+  {
+   "id": "BACK-C09",
+   "moment": "back_again",
+   "tone": "calm",
+   "en": "What's the feeling that keeps bringing you here?",
+   "hi": "Kaunsi feeling baar baar yahan laa rahi hai?",
+   "shareable": true
+  },
+  {
+   "id": "BACK-C10",
+   "moment": "back_again",
+   "tone": "calm",
+   "en": "Could the next check wait an hour?",
+   "hi": "Agla check ek ghante baad ho sakta hai?",
+   "shareable": true
+  },
+  {
+   "id": "FIRST-D01",
+   "moment": "first_open",
+   "tone": "direct",
+   "en": "First {app} open today. What's it for?",
+   "hi": "Aaj ka pehla {app} open. Kis liye?",
+   "shareable": true
+  },
+  {
+   "id": "FIRST-D02",
+   "moment": "first_open",
+   "tone": "direct",
+   "en": "First time in {app} today. How long?",
+   "hi": "Aaj pehli baar {app}. Kitna time chahiye?",
+   "shareable": true
+  },
+  {
+   "id": "FIRST-D03",
+   "moment": "first_open",
+   "tone": "direct",
+   "en": "Starting today's {app}. Quick check or longer?",
+   "hi": "Aaj ka {app} start. Quick check ya lamba?",
+   "shareable": true
+  },
+  {
+   "id": "FIRST-D04",
+   "moment": "first_open",
+   "tone": "direct",
+   "en": "{app} for the first time today. Go ahead?",
+   "hi": "Aaj pehli baar {app}. Aage badhein?",
+   "shareable": true
+  },
+  {
+   "id": "FIRST-D05",
+   "moment": "first_open",
+   "tone": "direct",
+   "en": "Your {limit} for {app} starts now.",
+   "hi": "{app}: aaj ka {limit} abhi start.",
+   "shareable": false
+  },
+  {
+   "id": "FIRST-D06",
+   "moment": "first_open",
+   "tone": "direct",
+   "en": "What made you open {app} just now?",
+   "hi": "Abhi {app} kyun khola?",
+   "shareable": true
+  },
+  {
+   "id": "FIRST-D07",
+   "moment": "first_open",
+   "tone": "direct",
+   "en": "Is now when you want your {app} time?",
+   "hi": "{app} ka time abhi chahiye?",
+   "shareable": true
+  },
+  {
+   "id": "FIRST-D08",
+   "moment": "first_open",
+   "tone": "direct",
+   "en": "{app} now, or later in the day?",
+   "hi": "{app} abhi, ya aaj baad mein?",
+   "shareable": true
+  },
+  {
+   "id": "FIRST-C01",
+   "moment": "first_open",
+   "tone": "calm",
+   "en": "What are you hoping {app} gives you today?",
+   "hi": "Aaj {app} se kya chahiye?",
+   "shareable": true
+  },
+  {
+   "id": "FIRST-C02",
+   "moment": "first_open",
+   "tone": "calm",
+   "en": "How do you want today's time on {app} to go?",
+   "hi": "Aaj {app} ka time kaisa jaaye?",
+   "shareable": true
+  },
+  {
+   "id": "FIRST-C03",
+   "moment": "first_open",
+   "tone": "calm",
+   "en": "Is this a planned open, or a reflex?",
+   "hi": "Yeh planned open hai, ya reflex?",
+   "shareable": true
+  },
+  {
+   "id": "FIRST-C04",
+   "moment": "first_open",
+   "tone": "calm",
+   "en": "What were you doing just before this?",
+   "hi": "Isse just pehle kya chal raha tha?",
+   "shareable": true
+  },
+  {
+   "id": "FIRST-C05",
+   "moment": "first_open",
+   "tone": "calm",
+   "en": "How are you feeling as you open it?",
+   "hi": "Kholte waqt kaisa feel ho raha hai?",
+   "shareable": true
+  },
+  {
+   "id": "FIRST-C06",
+   "moment": "first_open",
+   "tone": "calm",
+   "en": "Is there anything you'd like to do first?",
+   "hi": "Pehle kuch aur karna hai?",
+   "shareable": true
+  },
+  {
+   "id": "MORN-D01",
+   "moment": "morning",
+   "tone": "direct",
+   "en": "Good morning. {app} now, or after you're up?",
+   "hi": "Good morning. {app} abhi, ya uthne ke baad?",
+   "shareable": true
+  },
+  {
+   "id": "MORN-D02",
+   "moment": "morning",
+   "tone": "direct",
+   "en": "First hour of the day. {app} first?",
+   "hi": "Din ka pehla ghanta. Pehle {app}?",
+   "shareable": true
+  },
+  {
+   "id": "MORN-D03",
+   "moment": "morning",
+   "tone": "direct",
+   "en": "Open now, or once your day has started?",
+   "hi": "Abhi kholna hai, ya din start hone ke baad?",
+   "shareable": true
+  },
+  {
+   "id": "MORN-D04",
+   "moment": "morning",
+   "tone": "direct",
+   "en": "Need {app} for something specific right now?",
+   "hi": "Abhi {app} mein kuch specific chahiye?",
+   "shareable": true
+  },
+  {
+   "id": "MORN-D05",
+   "moment": "morning",
+   "tone": "direct",
+   "en": "Start the day here, or somewhere else?",
+   "hi": "Din yahan se start karna hai, ya kahin aur se?",
+   "shareable": true
+  },
+  {
+   "id": "MORN-D06",
+   "moment": "morning",
+   "tone": "direct",
+   "en": "Anything in {app} needed before breakfast?",
+   "hi": "Breakfast se pehle {app} mein kuch zaroori hai?",
+   "shareable": true
+  },
+  {
+   "id": "MORN-D07",
+   "moment": "morning",
+   "tone": "direct",
+   "en": "Is this part of your morning routine?",
+   "hi": "Kya yeh tumhari morning routine ka part hai?",
+   "shareable": true
+  },
+  {
+   "id": "MORN-D08",
+   "moment": "morning",
+   "tone": "direct",
+   "en": "One thing before {app}?",
+   "hi": "{app} se pehle ek kaam?",
+   "shareable": true
+  },
+  {
+   "id": "MORN-D09",
+   "moment": "morning",
+   "tone": "direct",
+   "en": "Does your morning plan include {app}?",
+   "hi": "Morning plan mein {app} hai?",
+   "shareable": true
+  },
+  {
+   "id": "MORN-D10",
+   "moment": "morning",
+   "tone": "direct",
+   "en": "Still early. Open {app}?",
+   "hi": "Abhi early hai. {app} kholna hai?",
+   "shareable": true
+  },
+  {
+   "id": "MORN-C01",
+   "moment": "morning",
+   "tone": "calm",
+   "en": "How do you want this first hour to go?",
+   "hi": "Yeh pehla ghanta kaisa jaaye?",
+   "shareable": true
+  },
+  {
+   "id": "MORN-C02",
+   "moment": "morning",
+   "tone": "calm",
+   "en": "What's one thing you want to do before the feed?",
+   "hi": "Feed se pehle ek kaam kya karna hai?",
+   "shareable": true
+  },
+  {
+   "id": "MORN-C03",
+   "moment": "morning",
+   "tone": "calm",
+   "en": "Could this wait until after your tea?",
+   "hi": "Chai ke baad dekhein?",
+   "shareable": true
+  },
+  {
+   "id": "MORN-C04",
+   "moment": "morning",
+   "tone": "calm",
+   "en": "What kind of start do you want today?",
+   "hi": "Aaj kaisa start chahiye?",
+   "shareable": true
+  },
+  {
+   "id": "MORN-C05",
+   "moment": "morning",
+   "tone": "calm",
+   "en": "How did you sleep? What do you feel like doing first?",
+   "hi": "Neend kaisi thi? Pehle kya karne ka mann hai?",
+   "shareable": true
+  },
+  {
+   "id": "MORN-C06",
+   "moment": "morning",
+   "tone": "calm",
+   "en": "What's one thing you're looking forward to today?",
+   "hi": "Aaj kis cheez ka wait hai?",
+   "shareable": true
+  },
+  {
+   "id": "MORN-C07",
+   "moment": "morning",
+   "tone": "calm",
+   "en": "Window first, or phone first?",
+   "hi": "Pehle window, ya pehle phone?",
+   "shareable": true
+  },
+  {
+   "id": "MORN-C08",
+   "moment": "morning",
+   "tone": "calm",
+   "en": "Is there someone you'd like to talk to this morning?",
+   "hi": "Aaj subah kisi se baat karni hai?",
+   "shareable": true
+  },
+  {
+   "id": "MORN-C09",
+   "moment": "morning",
+   "tone": "calm",
+   "en": "What would make this morning feel like your own?",
+   "hi": "Yeh subah apni jaisi kaise lagegi?",
+   "shareable": true
+  },
+  {
+   "id": "MORN-C10",
+   "moment": "morning",
+   "tone": "calm",
+   "en": "What's your one priority for today?",
+   "hi": "Aaj ki ek priority kya hai?",
+   "shareable": true
+  },
+  {
+   "id": "NIGHT-D01",
+   "moment": "night",
+   "tone": "direct",
+   "en": "It's {clock}. Open {app} now?",
+   "hi": "{clock} ho gaye. Abhi {app}?",
+   "shareable": false
+  },
+  {
+   "id": "NIGHT-D02",
+   "moment": "night",
+   "tone": "direct",
+   "en": "Bedtime's close. {app} now?",
+   "hi": "Sone ka time paas hai. Abhi {app}?",
+   "shareable": true
+  },
+  {
+   "id": "NIGHT-D03",
+   "moment": "night",
+   "tone": "direct",
+   "en": "Quick check before bed, or a long one?",
+   "hi": "Sone se pehle quick check, ya lamba?",
+   "shareable": true
+  },
+  {
+   "id": "NIGHT-D04",
+   "moment": "night",
+   "tone": "direct",
+   "en": "Five minutes, then lights off?",
+   "hi": "5 minute, phir lights off?",
+   "shareable": true
+  },
+  {
+   "id": "NIGHT-D05",
+   "moment": "night",
+   "tone": "direct",
+   "en": "Anything in {app} that can't wait till morning?",
+   "hi": "{app} mein kuch hai jo subah tak wait nahi kar sakta?",
+   "shareable": true
+  },
+  {
+   "id": "NIGHT-D06",
+   "moment": "night",
+   "tone": "direct",
+   "en": "{time_today} on {app} today. One more open?",
+   "hi": "Aaj {app} pe {time_today}. Ek aur baar?",
+   "shareable": false
+  },
+  {
+   "id": "NIGHT-D07",
+   "moment": "night",
+   "tone": "direct",
+   "en": "Sleepy yet?",
+   "hi": "Neend aa rahi hai?",
+   "shareable": true
+  },
+  {
+   "id": "NIGHT-D08",
+   "moment": "night",
+   "tone": "direct",
+   "en": "{app} now, or in the morning?",
+   "hi": "{app} abhi, ya subah?",
+   "shareable": true
+  },
+  {
+   "id": "NIGHT-D09",
+   "moment": "night",
+   "tone": "direct",
+   "en": "Phone down for the night?",
+   "hi": "Raat ke liye phone neeche?",
+   "shareable": true
+  },
+  {
+   "id": "NIGHT-D10",
+   "moment": "night",
+   "tone": "direct",
+   "en": "Last open of the night?",
+   "hi": "Aaj raat ka last open?",
+   "shareable": true
+  },
+  {
+   "id": "NIGHT-C01",
+   "moment": "night",
+   "tone": "calm",
+   "en": "Is this helping you wind down, or keeping you up?",
+   "hi": "Isse wind down ho raha hai, ya neend door ja rahi hai?",
+   "shareable": true
+  },
+  {
+   "id": "NIGHT-C02",
+   "moment": "night",
+   "tone": "calm",
+   "en": "What would make tomorrow morning easier?",
+   "hi": "Kal subah ko easy kya banayega?",
+   "shareable": true
+  },
+  {
+   "id": "NIGHT-C03",
+   "moment": "night",
+   "tone": "calm",
+   "en": "What are you hoping to find in here tonight?",
+   "hi": "Aaj raat yahan kya dhoondhna hai?",
+   "shareable": true
+  },
+  {
+   "id": "NIGHT-C04",
+   "moment": "night",
+   "tone": "calm",
+   "en": "What would help your mind settle tonight?",
+   "hi": "Aaj raat mind ko settle kya karega?",
+   "shareable": true
+  },
+  {
+   "id": "NIGHT-C05",
+   "moment": "night",
+   "tone": "calm",
+   "en": "Ready to close the day?",
+   "hi": "Din close karne ke liye ready?",
+   "shareable": true
+  },
+  {
+   "id": "NIGHT-C06",
+   "moment": "night",
+   "tone": "calm",
+   "en": "What's one good thing from today worth remembering?",
+   "hi": "Aaj ki ek achhi baat jo yaad rakhni hai?",
+   "shareable": true
+  },
+  {
+   "id": "NIGHT-C07",
+   "moment": "night",
+   "tone": "calm",
+   "en": "Book or {app} tonight?",
+   "hi": "Aaj raat book ya {app}?",
+   "shareable": true
+  },
+  {
+   "id": "NIGHT-C08",
+   "moment": "night",
+   "tone": "calm",
+   "en": "How do you want to feel tomorrow morning?",
+   "hi": "Kal subah kaisa feel karna hai?",
+   "shareable": true
+  },
+  {
+   "id": "NIGHT-C09",
+   "moment": "night",
+   "tone": "calm",
+   "en": "How tired are you right now?",
+   "hi": "Abhi kitna tired feel ho raha hai?",
+   "shareable": true
+  },
+  {
+   "id": "NIGHT-C10",
+   "moment": "night",
+   "tone": "calm",
+   "en": "Is there anything on your mind from today?",
+   "hi": "Aaj ki koi baat mind mein chal rahi hai?",
+   "shareable": true
+  },
+  {
+   "id": "LIMIT-D01",
+   "moment": "over_limit",
+   "tone": "direct",
+   "en": "{time_today} on {app} today. Your limit was {limit}.",
+   "hi": "Aaj {app} pe {time_today}. Limit {limit} thi.",
+   "shareable": false
+  },
+  {
+   "id": "LIMIT-D02",
+   "moment": "over_limit",
+   "tone": "direct",
+   "en": "Today's {app} limit is used up. Open anyway?",
+   "hi": "Aaj ki {app} limit use ho gayi. Phir bhi kholna hai?",
+   "shareable": true
+  },
+  {
+   "id": "LIMIT-D03",
+   "moment": "over_limit",
+   "tone": "direct",
+   "en": "You're past the limit you set. Continue?",
+   "hi": "Apni set ki hui limit cross ho gayi. Continue karna hai?",
+   "shareable": true
+  },
+  {
+   "id": "LIMIT-D04",
+   "moment": "over_limit",
+   "tone": "direct",
+   "en": "Limit reached for today. Stop here?",
+   "hi": "Aaj ki limit poori. Yahin stop karein?",
+   "shareable": true
+  },
+  {
+   "id": "LIMIT-D05",
+   "moment": "over_limit",
+   "tone": "direct",
+   "en": "You set {limit} for {app}. It's done for today.",
+   "hi": "{app} ke liye {limit} set kiya tha. Aaj ka ho gaya.",
+   "shareable": false
+  },
+  {
+   "id": "LIMIT-D06",
+   "moment": "over_limit",
+   "tone": "direct",
+   "en": "Over today's limit. Is this one important?",
+   "hi": "Aaj ki limit ke upar. Yeh wala important hai?",
+   "shareable": true
+  },
+  {
+   "id": "LIMIT-D07",
+   "moment": "over_limit",
+   "tone": "direct",
+   "en": "The limit is yours. Keep it today?",
+   "hi": "Limit tumhari hai. Aaj stick karein?",
+   "shareable": true
+  },
+  {
+   "id": "LIMIT-D08",
+   "moment": "over_limit",
+   "tone": "direct",
+   "en": "Open {app} past the limit, or stop here?",
+   "hi": "Limit ke baad bhi {app}, ya yahin stop?",
+   "shareable": true
+  },
+  {
+   "id": "LIMIT-D09",
+   "moment": "over_limit",
+   "tone": "direct",
+   "en": "Your limit resets tomorrow. Wait till then?",
+   "hi": "Kal limit reset hogi. Tab tak wait karein?",
+   "shareable": true
+  },
+  {
+   "id": "LIMIT-D10",
+   "moment": "over_limit",
+   "tone": "direct",
+   "en": "Limit done. Anything urgent in here?",
+   "hi": "Limit done. Isme kuch urgent hai?",
+   "shareable": true
+  },
+  {
+   "id": "LIMIT-C01",
+   "moment": "over_limit",
+   "tone": "calm",
+   "en": "You set this limit with a clear head. Still agree?",
+   "hi": "Yeh limit clear mind se set ki thi. Ab bhi agree?",
+   "shareable": true
+  },
+  {
+   "id": "LIMIT-C02",
+   "moment": "over_limit",
+   "tone": "calm",
+   "en": "What would a good rest of the day look like?",
+   "hi": "Baaki din kaisa jaaye toh achha lagega?",
+   "shareable": true
+  },
+  {
+   "id": "LIMIT-C03",
+   "moment": "over_limit",
+   "tone": "calm",
+   "en": "You've used today's time here. What else could you do?",
+   "hi": "Aaj ka time yahan use ho gaya. Ab aur kya karna hai?",
+   "shareable": true
+  },
+  {
+   "id": "LIMIT-C04",
+   "moment": "over_limit",
+   "tone": "calm",
+   "en": "What did you want this time to give you? Did it?",
+   "hi": "Is time se kya chahiye tha? Mila?",
+   "shareable": true
+  },
+  {
+   "id": "LIMIT-C05",
+   "moment": "over_limit",
+   "tone": "calm",
+   "en": "What's next in your day, apart from this?",
+   "hi": "Iske alawa aaj aage kya hai?",
+   "shareable": true
+  },
+  {
+   "id": "LIMIT-C06",
+   "moment": "over_limit",
+   "tone": "calm",
+   "en": "Is this worth going past your limit for?",
+   "hi": "Kya yeh limit cross karne worth hai?",
+   "shareable": true
+  },
+  {
+   "id": "LIMIT-C07",
+   "moment": "over_limit",
+   "tone": "calm",
+   "en": "This is past the line you drew. What's pulling you back?",
+   "hi": "Yeh tumhari line ke paar hai. Wapas kya pull kar raha hai?",
+   "shareable": true
+  },
+  {
+   "id": "LIMIT-C08",
+   "moment": "over_limit",
+   "tone": "calm",
+   "en": "How would it feel to call it a day here?",
+   "hi": "Yahin pe bas karke kaisa lagega?",
+   "shareable": true
+  },
+  {
+   "id": "LIMIT-C09",
+   "moment": "over_limit",
+   "tone": "calm",
+   "en": "What's one thing offline that's waiting for you?",
+   "hi": "Offline kya wait kar raha hai?",
+   "shareable": true
+  },
+  {
+   "id": "NEAR-D01",
+   "moment": "near_limit",
+   "tone": "direct",
+   "en": "{time_left} left on {app} today.",
+   "hi": "Aaj {app} pe {time_left} bacha hai.",
+   "shareable": false
+  },
+  {
+   "id": "NEAR-D02",
+   "moment": "near_limit",
+   "tone": "direct",
+   "en": "You've used {time_today} of {limit} on {app}.",
+   "hi": "{app}: {limit} mein se {time_today} ho gaya.",
+   "shareable": false
+  },
+  {
+   "id": "NEAR-D03",
+   "moment": "near_limit",
+   "tone": "direct",
+   "en": "{time_left} left today. Use it now?",
+   "hi": "{time_left} bacha hai. Abhi use karna hai?",
+   "shareable": false
+  },
+  {
+   "id": "NEAR-D04",
+   "moment": "near_limit",
+   "tone": "direct",
+   "en": "Close to your limit. Quick look or a long one?",
+   "hi": "Limit ke kareeb. Quick look ya lamba?",
+   "shareable": true
+  },
+  {
+   "id": "NEAR-D05",
+   "moment": "near_limit",
+   "tone": "direct",
+   "en": "Save the rest of today's time for later?",
+   "hi": "Aaj ka baaki time baad ke liye rakhein?",
+   "shareable": true
+  },
+  {
+   "id": "NEAR-D06",
+   "moment": "near_limit",
+   "tone": "direct",
+   "en": "Almost at your {app} limit. Continue?",
+   "hi": "{app} limit almost poori. Continue?",
+   "shareable": true
+  },
+  {
+   "id": "NEAR-D07",
+   "moment": "near_limit",
+   "tone": "direct",
+   "en": "This could use up today's limit. Go ahead?",
+   "hi": "Isse aaj ki limit khatam ho sakti hai. Aage badhein?",
+   "shareable": true
+  },
+  {
+   "id": "NEAR-D08",
+   "moment": "near_limit",
+   "tone": "direct",
+   "en": "{time_left} to go. What do you want from it?",
+   "hi": "{time_left} bacha. Isse kya chahiye?",
+   "shareable": false
+  },
+  {
+   "id": "NEAR-C01",
+   "moment": "near_limit",
+   "tone": "calm",
+   "en": "What would make the time left feel well spent?",
+   "hi": "Bacha hua time kaise use ho toh achha lagega?",
+   "shareable": true
+  },
+  {
+   "id": "NEAR-C02",
+   "moment": "near_limit",
+   "tone": "calm",
+   "en": "Is there something specific to see before the limit hits?",
+   "hi": "Limit se pehle yahan kuch specific dekhna hai?",
+   "shareable": true
+  },
+  {
+   "id": "NEAR-C03",
+   "moment": "near_limit",
+   "tone": "calm",
+   "en": "How has today's time on {app} felt so far?",
+   "hi": "Aaj ab tak {app} pe time kaisa laga?",
+   "shareable": true
+  },
+  {
+   "id": "NEAR-C04",
+   "moment": "near_limit",
+   "tone": "calm",
+   "en": "Would you rather keep some time for tonight?",
+   "hi": "Kuch time raat ke liye bachana hai?",
+   "shareable": true
+  },
+  {
+   "id": "NEAR-C05",
+   "moment": "near_limit",
+   "tone": "calm",
+   "en": "If this were your last open today, what would you look for?",
+   "hi": "Agar yeh aaj ka last open ho, toh kya dekhna hai?",
+   "shareable": true
+  },
+  {
+   "id": "NEAR-C06",
+   "moment": "near_limit",
+   "tone": "calm",
+   "en": "Is now the moment you want to use it?",
+   "hi": "Kya abhi hi use karna hai?",
+   "shareable": true
+  },
+  {
+   "id": "BREAK-D01",
+   "moment": "break",
+   "tone": "direct",
+   "en": "Taking a break? How long?",
+   "hi": "Break hai? Kitni der ka?",
+   "shareable": true
+  },
+  {
+   "id": "BREAK-D02",
+   "moment": "break",
+   "tone": "direct",
+   "en": "Short break, or a long one?",
+   "hi": "Chhota break, ya lamba?",
+   "shareable": true
+  },
+  {
+   "id": "BREAK-D03",
+   "moment": "break",
+   "tone": "direct",
+   "en": "Break time: {app}, or something else?",
+   "hi": "Break mein {app}, ya kuch aur?",
+   "shareable": true
+  },
+  {
+   "id": "BREAK-D04",
+   "moment": "break",
+   "tone": "direct",
+   "en": "Five minutes on {app}, then back?",
+   "hi": "{app} pe 5 minute, phir wapas?",
+   "shareable": true
+  },
+  {
+   "id": "BREAK-D05",
+   "moment": "break",
+   "tone": "direct",
+   "en": "{time_today} on {app} today so far.",
+   "hi": "Aaj ab tak {app} pe {time_today}.",
+   "shareable": false
+  },
+  {
+   "id": "BREAK-D06",
+   "moment": "break",
+   "tone": "direct",
+   "en": "This break on the phone, or off it?",
+   "hi": "Yeh break phone pe chahiye, ya phone ke bina?",
+   "shareable": true
+  },
+  {
+   "id": "BREAK-D07",
+   "moment": "break",
+   "tone": "direct",
+   "en": "A few minutes, then close?",
+   "hi": "Kuch minute, phir close?",
+   "shareable": true
+  },
+  {
+   "id": "BREAK-D08",
+   "moment": "break",
+   "tone": "direct",
+   "en": "Is {app} what you want right now?",
+   "hi": "Abhi {app} hi chahiye?",
+   "shareable": true
+  },
+  {
+   "id": "BREAK-C01",
+   "moment": "break",
+   "tone": "calm",
+   "en": "What kind of break do you need right now?",
+   "hi": "Abhi kaisa break chahiye?",
+   "shareable": true
+  },
+  {
+   "id": "BREAK-C02",
+   "moment": "break",
+   "tone": "calm",
+   "en": "Stretch break, or {app} break?",
+   "hi": "Stretch break, ya {app} break?",
+   "shareable": true
+  },
+  {
+   "id": "BREAK-C03",
+   "moment": "break",
+   "tone": "calm",
+   "en": "What would truly refresh you in the next five minutes?",
+   "hi": "Agle 5 minute mein sach mein kya refresh karega?",
+   "shareable": true
+  },
+  {
+   "id": "BREAK-C04",
+   "moment": "break",
+   "tone": "calm",
+   "en": "How do you usually feel after a {app} break?",
+   "hi": "{app} break ke baad usually kaisa lagta hai?",
+   "shareable": true
+  },
+  {
+   "id": "BREAK-C05",
+   "moment": "break",
+   "tone": "calm",
+   "en": "Is there someone you'd like to catch up with?",
+   "hi": "Kisi se catch up karna hai?",
+   "shareable": true
+  },
+  {
+   "id": "BREAK-C06",
+   "moment": "break",
+   "tone": "calm",
+   "en": "How has your day been so far?",
+   "hi": "Aaj ka din ab tak kaisa raha?",
+   "shareable": true
+  },
+  {
+   "id": "BREAK-C07",
+   "moment": "break",
+   "tone": "calm",
+   "en": "What's taking most of your energy today?",
+   "hi": "Aaj sabse zyada energy kahan ja rahi hai?",
+   "shareable": true
+  },
+  {
+   "id": "BREAK-C08",
+   "moment": "break",
+   "tone": "calm",
+   "en": "What would you like to come back to after this?",
+   "hi": "Iske baad kis cheez pe wapas jaana hai?",
+   "shareable": true
+  }
+ ]
+}
